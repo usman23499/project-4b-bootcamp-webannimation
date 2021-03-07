@@ -179,59 +179,7 @@ function App() {
     
   });
 
-  const zoomin = useWebAnimations({
-    ...zoomIn,
-    // keyframes: {
-    //   transform:  ["translateY(0)", "translateY(-20px)","translateY(0)"], 
-    // },
-    timing: {
-      duration: 2000, // Run for 1000ms
-      iterations:1 , // Repeat once
-      easing: "ease-in-out", // Use a fancy timing function
-      
-    },
-    
-  });
-
-  const fade1 = useWebAnimations({
-    ...fadeInBottomLeft,
-    // keyframes: {
-    //   transform:  ["translateY(0)", "translateY(-20px)","translateY(0)"], 
-    // },
-    timing: {
-      duration: 2000, // Run for 1000ms
-      iterations:1 , // Repeat once
-      easing: "ease-in-out", // Use a fancy timing function
-      
-    },
-    
-  });
-  const fade2 = useWebAnimations({
-    ...fadeInBottomLeft,
-    // keyframes: {
-    //   transform:  ["translateY(0)", "translateY(-20px)","translateY(0)"], 
-    // },
-    timing: {
-      duration: 2000, // Run for 1000ms
-      iterations:1 , // Repeat once
-      easing: "ease-in-out", // Use a fancy timing function
-      
-    },
-    
-  });
-  const fade3 = useWebAnimations({
-    ...fadeInBottomLeft,
-    // keyframes: {
-    //   transform:  ["translateY(0)", "translateY(-20px)","translateY(0)"], 
-    // },
-    timing: {
-      duration: 2000, // Run for 1000ms
-      iterations:1 , // Repeat once
-      easing: "ease-in-out", // Use a fancy timing function
-      
-    },
-    
-  });
+ 
 
   
   return (
