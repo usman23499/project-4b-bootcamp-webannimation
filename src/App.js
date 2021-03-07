@@ -3,7 +3,7 @@ import './App.css';
 import Nav from "./Components/nav";
 import vedio from "./Components/images/ezgif.com-gif-maker.gif";
 import mic from './Components/images/mic.gif';
-import useWebAnimations,{zoomIn,fadeInBottomLeft} from "@wellyshen/use-web-animations";
+import useWebAnimations from "@wellyshen/use-web-animations";
 import { useState,useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
