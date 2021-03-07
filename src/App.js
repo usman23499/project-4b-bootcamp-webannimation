@@ -16,6 +16,7 @@ function App() {
 
   useEffect(() => {
     AOS.init({duration:2000});
+    
     setInterval(() => {
       
       setdot1("dot1grey");
