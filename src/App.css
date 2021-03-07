@@ -1,38 +1,290 @@
-.App {
+body{
+  background-image: linear-gradient(to bottom, #dce6ff, #e4eaff, #ebefff, #f2f3ff, #f8f8ff, #f8f8ff, #f8f8ff, #f8f8ff, #f2f3ff, #ebefff, #e4eaff, #dce6ff);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ 
+}
+.main{
+ margin: 0 auto !important;
+ max-width: 980px;
+}
+.btn1{
+  background-image: linear-gradient(to bottom, #3399fe, #0183f7, #006ded, #0055e1, #023bd3) !important; 
+  color: white !important;
+  font-weight:500 !important;
+  margin-left: 90px !important;
+  margin-right: 10% !important;
+  border: none !important;
+}
+
+.btn1:hover{
+  background-image: linear-gradient(to bottom, #147ee9, #1486e9, #0161ce, #0146b4, #022b9c) !important; 
+}
+.collapse {
+  padding-left: 25px !important;
+  
+}
+li{
+  padding-left: 30px !important;
+}
+.container-fluid{
+ 
+}
+
+.btn2{
+  background-image: linear-gradient(to bottom, #3399fe, #0183f7, #006ded, #0055e1, #023bd3) !important; 
+  color: white !important;
+  font-weight:500 !important;
+  width: 190px;
+  height: 50px;
+  font-size: 20px !important;
+  border: none !important;
+  
+}
+
+.btn2:hover{
+  background-image: linear-gradient(to bottom, #147ee9, #1486e9, #0161ce, #0146b4, #022b9c) !important; 
+}
+
+.btn3{
+  background-image: linear-gradient(to bottom, #ffffff, #f8f8f8, #f1f1f1, #e9eaea, #e2e3e3);
+    color: black !important;
+  font-weight:500 !important;
+  width: 190px;
+  height: 50px;
+  font-size: 20px !important;
+  margin-left: 30px;
+  border: none !important;
+}
+
+.btn3:hover{
+  background-image: linear-gradient(to bottom, #f8f6f6, #f0efef, #f3f0f0, #c4c7c7, #b4b6b6);
+
+}
+.secondmain{
+  background-image: url('./Components/images/wave-1-ddc3a23018.svg');
+  background-repeat: no-repeat;
+  
+  
   text-align: center;
+  background-position: right;
+  background-size: contain;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fourthmain{
+    
+    background-image: url('https://mutify.app/images/wave-2-ca2e74569e.svg');
+    background-repeat: no-repeat;
+  
+  
+  text-align: center;
+  background-position: right;
+  background-size: contain;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.fifthmain{
+    
+  background-image: url('https://mutify.app/images/noise-level@2x-8a4e6451fa.jpg');
+  background-repeat: no-repeat;
+
+
+text-align: center;
+background-position: center;
+
+
+border-radius: 28px;
+background-size: auto;
+
+}
+.row1{
+  display: flex !important;
+  align-items: center !important;
+}
+
+.btn4{
+  background-image: linear-gradient(to bottom, #ffffff, #f8f8f8, #f1f1f1, #e9eaea, #e2e3e3);
+    color: #63657c !important;
+  font-weight:500 !important;
+  width: 190px;
+  height: 50px;
+  font-size: 20px !important;
+  
+  border: none !important;
+}
+.divring{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+
+
+.sixthmain{
+    
+  
+
+
+display: flex;
+align-items: center;
+
+background-color: white;
+
+border-radius: 28px;
+
+
+}
+.row2{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.divringmic{
+  display: flex !important;
+  
+  /* overflow: hidden !important; */
+}
+
+
+.texthandle{
+  display:inline;   
+  margin:0 40%;
+  position:absolute;
+  text-align:center;
+   margin-top:296px;
+  
+}
+.texthandlefp{
+  font-size:3vw;
+  text-align:center;
+  font-weight:bold;
+ 
+}
+.callimg{
+  margin-top:556px;
+  width:30%;
+  box-shadow: 0px 0px 100px #023bd3;
+  border-radius:12px;
+}
+
+@media screen and (max-width: 500px) {
+  .texthandle {
+    margin-top:626px !important;
+    margin: 0 auto;
+  }
+  .texthandlefp{
+    font-size:7vw;
+  }
+  .callimg{
+    width:80%;
+    margin-top:786px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+
+
+
+
+
+
+@media screen and (max-width: 410px) {
+  .btn2 {
+   width: 90%;
+  }
+  .btn3 {
+    width: 90%;
+    margin-left: 0px;
+   }
+   
 }
 
-.App-link {
-  color: #61dafb;
+@media screen and (max-width: 767px) {
+  .sixthmain {
+    width: 90%;
+  
+  }
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+@media screen and (max-width: 628px) {
+  .divringmic {
+    display: none !important;
+  
   }
-  to {
-    transform: rotate(360deg);
+  .textsize{
+    min-height: 100px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
   }
+}
+
+.dot1grey{
+  position:absolute;
+  min-width:4.5%;
+  background-color:grey;
+  color:transparent;
+  border-radius:50px;
+}
+.dot1white{
+  position:absolute;
+  min-width:4.5%;
+  background-color:white;
+  color:transparent;
+  border-radius:50px;
+}
+
+.dot2grey{
+  position:absolute;
+  min-width:4.5%;
+  background-color:grey;
+  color:transparent;
+  border-radius:50px;
+  margin-left: 15%;
+}
+.dot2white{
+  position:absolute;
+  min-width:4.5%;
+  background-color:white;
+  color:transparent;
+  border-radius:50px;
+  margin-left: 15%;
+}
+
+.dot3grey{
+  position:absolute;
+  min-width:4.5%;
+  background-color:grey;
+  color:transparent;
+  border-radius:50px;
+  margin-left: -15%;
+}
+.dot3white{
+  position:absolute;
+  min-width:4.5%;
+  background-color:white;
+  color:transparent;
+  border-radius:50px;
+  margin-left: -15%;
+}
+.dot4grey{
+  position:absolute;
+  min-width:4.5%;
+  background-color:grey;
+  color:transparent;
+  border-radius:50px;
+  margin-left: 30%;
+}
+.dot4white{
+  position:absolute;
+  min-width:4.5%;
+  background-color:white;
+  color:transparent;
+  border-radius:50px;
+  margin-left: 30%;
 }
